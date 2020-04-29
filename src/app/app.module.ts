@@ -7,6 +7,7 @@ import { HelloComponent } from './hello.component';
 import { OperatorComponent } from './operator/operator.component';
 import {Routes, RouterModule} from '@angular/router';
 import operatorComponentCss from './operator/operator.component.css';
+import {Router} from '@angular/router';
 
 const ROUTES: Routes = [
   {path: 'operator', component:OperatorComponent}
