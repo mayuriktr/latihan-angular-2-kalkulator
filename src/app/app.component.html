@@ -1,0 +1,25 @@
+<hello name="{{ name }}"></hello>
+
+ <input [(ngModel)] = "angka" type="text"/>
+ <br><br>
+<button (click)="angka7()">7</button>&nbsp;
+<button (click)="angka8()">8</button>&nbsp;
+<button (click)="angka9()">9</button>&nbsp;
+<br><br>
+<button (click)="angka4()">4</button>&nbsp;
+<button (click)="angka5()">5</button>&nbsp;
+<button (click)="angka6()">6</button>&nbsp;
+<br><br>
+<button (click)="angka1()">1</button>&nbsp;
+<button (click)="angka2()">2</button>&nbsp;
+<button (click)="angka3()">3</button>&nbsp;
+<br><br>
+<button (click)="minus()">-</button>&nbsp;
+<button (click)="plus()">+</button>&nbsp;
+<button (click)="kali()">*</button>&nbsp;
+<button (click)="hasil()">=</button>&nbsp;
+
+ <br>
+
+<a routerLink="/operator">operator</a>
+<router-outlet> </router-outlet>
